@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>title</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <!-- component -->
+
+    <div
+      class="h-100 w-full flex items-center justify-center bg-teal-lightest font-sans"
+    >
+      <div class="bg-white rounded shadow p-6 m-4 w-full lg:w-3/4 lg:max-w-lg">
+        <div class="mb-4">
+          <h1 class="text-grey-darkes">Todo List</h1>
+          <div class="flex mt-4">
+            <button
+              class="flex-no-shrink p-2 border-2 rounded text-teal border-teal hover:text-white hover:bg-teal"
+              id="clear"
+            >
+              Clear
+            </button>
+            <input
+              class="shadow appearance-none border rounded w-full py-2 px-3 mr-4 text-grey-darker"
+              placeholder="Add Todo"
+              id="input"
+            />
+            <button
+              class="flex-no-shrink p-2 border-2 rounded text-teal border-teal hover:text-red-950 hover:bg-cyan-900"
+              id="add"
+            >
+              Add
+            </button>
+          </div>
+
+          
+        </div>
+        <div id="todolist"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
